@@ -48,6 +48,3 @@ if len(lista) > 0:
     print(f"Menor saldo: {menor}")
 
 
-    
-
-    
