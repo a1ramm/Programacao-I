@@ -48,5 +48,8 @@ class Poligono:
             total += (x0 * y1 - x1 *y0)
         return total/2
     
+    def __str__(self) -> str:
+        return f"Perimetro: {self.perimetro()}\nArea: {self.area()}"
+    
 quadrado = Poligono([Ponto(1, 1), Ponto(3, 1), Ponto(3, 3), Ponto(1 ,3)])
-print(quadrado.perimetro(), quadrado.area())
+print(quadrado.__str__())
