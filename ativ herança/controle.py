@@ -1,4 +1,4 @@
-from funcionarioo import Funcionario
+from funcionario import Funcionario
 from gerente import Gerente
 
 class ControleDeBonificacoes:
